@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'rand_avg'
+package_name = 'jan_h49_rand_avg'
 
 setup(
     name=package_name,
@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = rand_avg.control_vehicle:main',
+            # 'control_vehicle = jan_h49_rand_avg.control_vehicle:main',
         ],
     },
 )
