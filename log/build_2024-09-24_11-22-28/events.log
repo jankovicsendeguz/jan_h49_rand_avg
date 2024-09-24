@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (jan_h49_rand_avg) JobQueued: {'identifier': 'jan_h49_rand_avg', 'dependencies': OrderedDict()}
+[0.000821] (jan_h49_rand_avg) JobStarted: {'identifier': 'jan_h49_rand_avg'}
+[0.107853] (-) TimerEvent: {}
+[0.217863] (-) TimerEvent: {}
+[0.326820] (-) TimerEvent: {}
+[0.435858] (-) TimerEvent: {}
+[0.543893] (-) TimerEvent: {}
+[0.652714] (-) TimerEvent: {}
+[0.760676] (-) TimerEvent: {}
+[0.830642] (jan_h49_rand_avg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'barna', 'GIT_ASKPASS': '/home/barna/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/barna', 'OLDPWD': '/home/barna/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.93.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-3cfdd968-b43f-4e45-a978-c4e82c31e3d2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/barna/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/barna/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'LOGNAME': 'barna', 'NAME': 'Code', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/barna/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Blanka/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Blanka/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-41b76f5341.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '92', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[0.869147] (-) TimerEvent: {}
+[0.976037] (-) TimerEvent: {}
+[1.086211] (-) TimerEvent: {}
+[1.180312] (jan_h49_rand_avg) StdoutLine: {'line': b'running develop\n'}
+[1.192388] (-) TimerEvent: {}
+[1.192524] (jan_h49_rand_avg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.192729] (jan_h49_rand_avg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.301428] (-) TimerEvent: {}
+[1.397350] (jan_h49_rand_avg) StdoutLine: {'line': b'running egg_info\n'}
+[1.397560] (jan_h49_rand_avg) StdoutLine: {'line': b'creating jan_h49_rand_avg.egg-info\n'}
+[1.397711] (jan_h49_rand_avg) StdoutLine: {'line': b'writing jan_h49_rand_avg.egg-info/PKG-INFO\n'}
+[1.398723] (jan_h49_rand_avg) StdoutLine: {'line': b'writing dependency_links to jan_h49_rand_avg.egg-info/dependency_links.txt\n'}
+[1.400529] (jan_h49_rand_avg) StdoutLine: {'line': b'writing entry points to jan_h49_rand_avg.egg-info/entry_points.txt\n'}
+[1.401446] (jan_h49_rand_avg) StdoutLine: {'line': b'writing requirements to jan_h49_rand_avg.egg-info/requires.txt\n'}
+[1.402338] (-) TimerEvent: {}
+[1.402506] (jan_h49_rand_avg) StdoutLine: {'line': b'writing top-level names to jan_h49_rand_avg.egg-info/top_level.txt\n'}
+[1.403107] (jan_h49_rand_avg) StdoutLine: {'line': b"writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'\n"}
+[1.405531] (jan_h49_rand_avg) StdoutLine: {'line': b"reading manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'\n"}
+[1.406295] (jan_h49_rand_avg) StdoutLine: {'line': b"writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'\n"}
+[1.407732] (jan_h49_rand_avg) StdoutLine: {'line': b'running build_ext\n'}
+[1.407930] (jan_h49_rand_avg) StdoutLine: {'line': b'Creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages/jan-h49-rand-avg.egg-link (link to .)\n'}
+[1.409419] (jan_h49_rand_avg) StdoutLine: {'line': b'\n'}
+[1.409594] (jan_h49_rand_avg) StdoutLine: {'line': b'Installed /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg\n'}
+[1.409694] (jan_h49_rand_avg) StdoutLine: {'line': b'running symlink_data\n'}
+[1.409755] (jan_h49_rand_avg) StdoutLine: {'line': b'creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index\n'}
+[1.409903] (jan_h49_rand_avg) StdoutLine: {'line': b'creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index\n'}
+[1.410020] (jan_h49_rand_avg) StdoutLine: {'line': b'creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages\n'}
+[1.410327] (jan_h49_rand_avg) StdoutLine: {'line': b'symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/resource/jan_h49_rand_avg -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages\n'}
+[1.410828] (jan_h49_rand_avg) StdoutLine: {'line': b'symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/package.xml -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg\n'}
+[1.411290] (jan_h49_rand_avg) StdoutLine: {'line': b'symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example1.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg\n'}
+[1.411782] (jan_h49_rand_avg) StdoutLine: {'line': b'symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example2.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg\n'}
+[1.434006] (jan_h49_rand_avg) CommandEnded: {'returncode': 0}
+[1.502751] (-) TimerEvent: {}
+[1.610050] (-) TimerEvent: {}
+[1.614937] (jan_h49_rand_avg) JobEnded: {'identifier': 'jan_h49_rand_avg', 'rc': 0}
+[1.616498] (-) EventReactorShutdown: {}

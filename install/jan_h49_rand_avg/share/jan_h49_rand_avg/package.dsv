@@ -1,0 +1,9 @@
+source;share/jan_h49_rand_avg/hook/pythonpath.ps1
+source;share/jan_h49_rand_avg/hook/pythonpath.dsv
+source;share/jan_h49_rand_avg/hook/pythonpath.sh
+source;share/jan_h49_rand_avg/hook/ament_prefix_path.ps1
+source;share/jan_h49_rand_avg/hook/ament_prefix_path.dsv
+source;share/jan_h49_rand_avg/hook/ament_prefix_path.sh
+source;../../build/jan_h49_rand_avg/share/jan_h49_rand_avg/hook/pythonpath_develop.ps1
+source;../../build/jan_h49_rand_avg/share/jan_h49_rand_avg/hook/pythonpath_develop.dsv
+source;../../build/jan_h49_rand_avg/share/jan_h49_rand_avg/hook/pythonpath_develop.sh

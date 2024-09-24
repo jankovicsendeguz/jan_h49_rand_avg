@@ -1,0 +1,27 @@
+[0.842s] Invoking command in '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg': PYTHONPATH=/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/build --no-deps symlink_data
+[1.180s] running develop
+[1.192s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.192s]   warnings.warn(
+[1.397s] running egg_info
+[1.397s] creating jan_h49_rand_avg.egg-info
+[1.397s] writing jan_h49_rand_avg.egg-info/PKG-INFO
+[1.398s] writing dependency_links to jan_h49_rand_avg.egg-info/dependency_links.txt
+[1.400s] writing entry points to jan_h49_rand_avg.egg-info/entry_points.txt
+[1.401s] writing requirements to jan_h49_rand_avg.egg-info/requires.txt
+[1.402s] writing top-level names to jan_h49_rand_avg.egg-info/top_level.txt
+[1.402s] writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+[1.405s] reading manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+[1.406s] writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+[1.407s] running build_ext
+[1.407s] Creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages/jan-h49-rand-avg.egg-link (link to .)
+[1.409s] 
+[1.409s] Installed /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg
+[1.409s] running symlink_data
+[1.409s] creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index
+[1.409s] creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index
+[1.409s] creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages
+[1.410s] symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/resource/jan_h49_rand_avg -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages
+[1.410s] symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/package.xml -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
+[1.411s] symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example1.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
+[1.411s] symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example2.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
+[1.435s] Invoked command in '/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg' returned '0': PYTHONPATH=/home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/build --no-deps symlink_data

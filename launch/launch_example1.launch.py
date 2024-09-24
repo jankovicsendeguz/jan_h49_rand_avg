@@ -25,7 +25,7 @@ def generate_launch_description():
             ]
         ),
         # Node(
-        #     package='ros2_python_template',
+        #     package='jan_h49_rand_avg',
         #     executable='simple_sub_node',
         #     output='screen',
         # ),

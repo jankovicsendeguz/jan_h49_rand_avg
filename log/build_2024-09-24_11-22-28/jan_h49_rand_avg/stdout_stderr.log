@@ -1,0 +1,25 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating jan_h49_rand_avg.egg-info
+writing jan_h49_rand_avg.egg-info/PKG-INFO
+writing dependency_links to jan_h49_rand_avg.egg-info/dependency_links.txt
+writing entry points to jan_h49_rand_avg.egg-info/entry_points.txt
+writing requirements to jan_h49_rand_avg.egg-info/requires.txt
+writing top-level names to jan_h49_rand_avg.egg-info/top_level.txt
+writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+reading manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+writing manifest file 'jan_h49_rand_avg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/lib/python3.10/site-packages/jan-h49-rand-avg.egg-link (link to .)
+
+Installed /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg
+running symlink_data
+creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index
+creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index
+creating /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages
+symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/resource/jan_h49_rand_avg -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/ament_index/resource_index/packages
+symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/package.xml -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
+symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example1.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
+symbolically linking /home/barna/ros2_ws/src/jan_h49_rand_avg/build/jan_h49_rand_avg/launch/launch_example2.launch.py -> /home/barna/ros2_ws/src/jan_h49_rand_avg/install/jan_h49_rand_avg/share/jan_h49_rand_avg
