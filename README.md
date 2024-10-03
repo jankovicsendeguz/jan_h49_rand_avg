@@ -1,5 +1,9 @@
 # `jan_h49_rand_avg` package
 ROS 2 python package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
+
+A package két node-ból áll. A /gen_node véletlenszerű számokat generál és egy std_msgs/float32 topicban publikálja. Az /sum_node feliratkozik erre a topicra, összegzi az eddig kapott számokat, majd az átlagot egy másik std_msgs/float32 topicban publikálja.
+Megvalósítás ROS 2 Humble alatt.
+
 ## Packages and build
 
 It is assumed that the workspace is `~/ros2_ws/`.
