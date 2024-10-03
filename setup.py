@@ -18,12 +18,13 @@ setup(
     zip_safe=True,
     maintainer='jankovicsbendeguz',
     maintainer_email='jankovicsbendeguz@gmail.com',
-    description='round_avg',
+    description='ROS 2 csomag ami számokat generál, majd azokat átlagolja',
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = jan_h49_rand_avg.control_vehicle:main',
+           'random_generator_node = jan_h49_rand_avg.random_generator_node:main',
+            'average_node = jan_h49_rand_avg.average_node:main',
         ],
     },
 )
